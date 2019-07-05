@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="testApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  <link rel="stylesheet"
+  type="text/css"
+  media="screen"
+  href="test.css">
+  <script type="text/javascript" src="test.js"></script>
+</head>
+
+<body ng-controller="TestController as ctrl">
+  <div class="outer-box">
+
+    <div class="component-outer-box">
+      <!-- Title -->
+      <div class="component-title-box">
+        <span>
+          This is title
+        </span>
+      </div>
+      <!-- Body -->
+      <div id="content-box" 
+        class="component-content-box">
+        <div class="content-inner-box">
+          <div id="content-body" 
+            class="component-content-body">
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+            <p>Content here</p>
+          </div>
+        </div>
+      </div>
+      <!-- Button -->
+      <div class="component-button-box"
+        ng-click="ctrl.handleCollapse('content-box')">
+        ^
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>

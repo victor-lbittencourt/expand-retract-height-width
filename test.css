@@ -1,0 +1,42 @@
+.outer-box {
+  padding: 15vh 10vw 15vh 10vh;
+}
+
+.component-outer-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.component-title-box {
+  background-color: #dfdfdf;
+  padding: 10px;
+  font-size: 20px;
+  font-variant-caps: petite-caps;
+  color: #777;
+  border-bottom: 1px solid #ccc;
+}
+
+.component-content-box {
+  overflow: hidden;
+  transition: height 0.25s linear;
+  height: auto;
+}
+
+.content-inner-box {
+  padding: 1em 2em;
+
+}
+
+.component-button-box {
+  background-color: #dfdfdf;
+  border-top: 1px solid #ccc;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.component-button-box:hover {
+  background-color: #cfcfcf;
+  color: white;
+}
